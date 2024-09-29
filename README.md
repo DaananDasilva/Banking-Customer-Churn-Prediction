@@ -1,10 +1,10 @@
 # Banking Customer Churn Prediction
 
 ## Overview
-This project analyzes customer churn behavior at a financial institution using a dataset containing customer demographics, account details, and churn status. The goal is to identify key factors influencing churn and provide actionable insights to help the bank improve its customer retention strategies.
+This project aims to analyze customer churn behavior at a financial institution using a dataset containing customer demographics, account details, and churn status. The objective is to identify key factors influencing churn and provide actionable insights to help the bank improve its customer retention strategies.
 
 ## Problem Statement
-Customer churn is a critical issue for financial institutions as it directly impacts profitability and long-term growth. This project aims to explore and analyze the behavioral and demographic characteristics of customers who churn (leave the bank) compared to those who stay, providing insights into the drivers of churn and offering recommendations for retention.
+Customer churn is a critical issue for financial institutions, impacting profitability and long-term growth. This project explores and analyzes the behavioral and demographic characteristics of customers who churn compared to those who remain loyal, providing insights into the drivers of churn and offering recommendations for retention.
 
 ## Project Objectives
 1. **Analyze and visualize customer demographics and behavior** to identify trends and patterns related to churn.
@@ -41,26 +41,11 @@ Each step involves analyzing and visualizing different features of the dataset t
 - **Data Analysis**: Exploratory Data Analysis (EDA), Correlation Analysis, Chi-square tests
 - **Visualization**: Bar charts, Box plots, Histograms, Heatmaps
 
-## Dataset
-The dataset used for this project contains the following features:
-
-- **CustomerId**: A unique identifier for each customer.
-- **CreditScore**: Credit score of the customer.
-- **Geography**: Country or region of the customer.
-- **Gender**: Gender of the customer.
-- **Age**: Age of the customer.
-- **Tenure**: Number of years the customer has been with the bank.
-- **Balance**: Account balance of the customer.
-- **NumOfProducts**: Number of bank products held by the customer.
-- **HasCrCard**: Indicates whether the customer has a credit card.
-- **IsActiveMember**: Indicates whether the customer is an active member.
-- **EstimatedSalary**: Estimated salary of the customer.
-- **Exited**: Churn status (1 = Churned, 0 = Loyal).
-
 ## Repository Structure
-- **`Banking_Customer_Churn_Prediction.ipynb`**: Jupyter notebook containing the analysis and visualizations.
-- **`data/`**: Folder containing the dataset file (`Churn_Modelling.csv`).
+- **`Churn_Modelling.csv`**: The dataset used for analysis, containing customer information and churn status.
+- **`LICENSE`**: Licensing information for the repository.
 - **`README.md`**: Project overview and documentation.
+- **`banking_customer_churn_prediction.ipynb`**: Jupyter notebook containing the analysis and visualizations.
 
 ## How to Run the Project
 1. Clone the repository:
@@ -73,7 +58,7 @@ The dataset used for this project contains the following features:
     ```
 3. Open the Jupyter notebook and run the cells to see the analysis:
     ```bash
-    jupyter notebook Banking_Customer_Churn_Prediction.ipynb
+    jupyter notebook banking_customer_churn_prediction.ipynb
     ```
 
 ## Future Work
